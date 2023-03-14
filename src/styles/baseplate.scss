@@ -1,0 +1,13 @@
+.wide{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: lightgray;
+   .child{
+    margin-left: 15rem;
+    margin-top: 10rem;
+   color: black;
+    font-size: larger;
+    
+   }
+}

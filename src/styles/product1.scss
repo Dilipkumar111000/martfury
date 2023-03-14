@@ -1,0 +1,25 @@
+.img{
+    height: 10rem;
+    width: 15rem;
+   
+}
+.mix{
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 10px;
+} 
+.mix:hover{
+    transform: translateY(-1rem);
+    transition: 1s;
+}
+.title{
+    margin-right: 5rem;
+    background-color: white;
+    border: none;
+}
+.stars{
+    color: rgb(217, 107, 17);
+}

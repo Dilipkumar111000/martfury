@@ -1,0 +1,74 @@
+.allProducts{
+  display: grid;
+  grid-template-columns: repeat(4,4fr);
+  width: 20rem;
+  height: 22rem;
+  margin-left: 1rem;
+  gap: 4rem;
+  margin-top: 5rem;
+}
+.title{
+    width: 90%;
+    height: 3rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 8rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6rem;
+    color: blue;
+    border: 1px solid;
+}
+h3{
+   
+    color: black;
+}
+
+.myproducts{
+    display: grid;
+    grid-template-columns: repeat(4,4fr);
+    margin-top: 80rem;
+    row-gap: 2rem;
+    margin-left: 2rem;
+    
+}
+.leo{
+    display: grid;
+    grid-template-columns: repeat(4,4fr);
+    margin-top: 20rem;
+    row-gap: 2rem;
+    margin-left: 2rem;
+}
+.lion{
+    display: grid;
+    grid-template-columns: repeat(4,4fr);
+    margin-top: 20rem;
+    row-gap: 2rem;
+    margin-left: 2rem;
+}
+.cart{
+    width: 10rem;
+    height: 10rem;
+    border: 1px solid;
+    background-color: rgb(210, 141, 57);
+    position: absolute;
+    top: 5%;
+    right: 1%;
+    position: fixed;
+}
+.counter{
+    width: 5rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    background-color: white;
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+   
+}
+body{
+    position: relative;
+}

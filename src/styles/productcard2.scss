@@ -1,0 +1,27 @@
+.img{
+    height: 10rem;
+    width: 20rem;
+   
+}
+.private{
+    width: 20rem;
+    height: 25rem;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 10px;
+} 
+.private:hover{
+    transform: translateY(-1rem);
+    transition: 1s;
+}
+.title{
+    margin-right: 5rem;
+    background-color: white;
+    border: none;
+}
+.stars{
+    color: rgb(217, 107, 17);
+}

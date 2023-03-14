@@ -1,0 +1,14 @@
+.cont{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 3rem;
+  .foot2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    background-color: lightgray;
+    color: black;
+   justify-content: center;
+   font-size: large;
+  }
+}
